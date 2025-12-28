@@ -1,0 +1,22 @@
+# Ignore Mac/Windows system files
+.DS_Store
+Thumbs.db
+
+# Ignore Node.js heavy files
+node_modules/
+dist/
+.env
+
+# Ignore Python heavy files
+__pycache__/
+*.pyc
+venv/
+.pytest_cache/
+
+# Ignore Database (Start fresh)
+*.db
+*.sqlite3
+
+# Ignore Uploaded photos (Privacy)
+backend/uploads/*
+!backend/uploads/.gitkeep
